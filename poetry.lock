@@ -515,11 +515,11 @@ hiredis = ["hiredis (>=0.1.3)"]
 
 [[package]]
 name = "redislite"
-version = "6.0.674960"
+version = "6.2.805324"
 description = "Redis built into a python package"
 category = "dev"
 optional = false
-python-versions = ">=3.6.0"
+python-versions = ">=3.7.0"
 
 [package.dependencies]
 psutil = "*"
@@ -708,7 +708,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "cda95d40440e8dcfd66fe052dacaadc7a3ae073048c8d0f0815a9bb7ccf1c1e4"
+content-hash = "98c9bbec21930790b95a965eee7e29a334ed137d718352c2e5c53b6098797c6d"
 
 [metadata.files]
 astroid = [
@@ -1002,22 +1002,27 @@ redis = [
     {file = "redis-3.5.3.tar.gz", hash = "sha256:0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2"},
 ]
 redislite = [
-    {file = "redislite-6.0.674960-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:24c02a9b644d3397616989d93175a8b4c9940fbafe3a6b244c1513e0778c99d9"},
-    {file = "redislite-6.0.674960-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:c75a09b26ef05335e7276f416352f1af0db57e80cff25fe8aac38b92fffd0215"},
-    {file = "redislite-6.0.674960-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:f27402586a9639b66aeb59189e44d027065a71c7c01e56b701be865de8406fe8"},
-    {file = "redislite-6.0.674960-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:ab26ec837b0c1a744e58288e2986c48b0c18773071efba5072117640e3795bd3"},
-    {file = "redislite-6.0.674960-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:937e4a200402590b02aff537a6327322162f02c0b8bf359e063ed680dc4f8bd3"},
-    {file = "redislite-6.0.674960-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:170eb1353e3ea56c58d58019029eb4797a24a4b9996dc8a8df2f774b66e54803"},
-    {file = "redislite-6.0.674960-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:10551f3c3acbb45e6b398120f4586d02cbf0a1499ede06b7817be6111c645089"},
-    {file = "redislite-6.0.674960-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:9859ca5d24bb0594a61c3cba87f62ec46934e3f539bb8cab373c53bcdb6f0a97"},
-    {file = "redislite-6.0.674960-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:66c927fae6df8e40d2f5ff16d47f3f4708ee62a37562394ebc18bacf8c99c034"},
-    {file = "redislite-6.0.674960-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:472abdf314ca20ba72e33864fd52405a8679a15433069180fba6c5baa3566918"},
-    {file = "redislite-6.0.674960-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:50e6c92dd07bc65dc64658b6bae2959d23e9e1ac85bfdb8214aab3ac8b30e807"},
-    {file = "redislite-6.0.674960-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:1ea50ae4da7ca65e618b5103bde77e0d27c0458c619a6c2f57d3069c04c2c5b3"},
-    {file = "redislite-6.0.674960.tar.gz", hash = "sha256:6ffc1c2233d5ca036f907e521ca8e0e0d5ce9957357e18de997332b4978357de"},
+    {file = "redislite-6.2.805324-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:0f0642a5a6b79d086260e2ce42a95744dc5e5339f571ac149705730de8f68be9"},
+    {file = "redislite-6.2.805324-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c6abef5810940eca315b8c90f45b0ebda8e76c0a0ea6e9f606b8166f01a082b1"},
+    {file = "redislite-6.2.805324-cp311-cp311-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:0b3f202cee43bda332f97615ecf4a7c3b2b91c9ab28abf0494a21f6829d19101"},
+    {file = "redislite-6.2.805324-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a704fdfb74b4b1711f86b98deeb0627ed7bbdf21653e48146d9369cda2fc40c4"},
+    {file = "redislite-6.2.805324-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:09989c29788e2a4ab0c946869582451f6a46b4099a17482560d990250ffad696"},
+    {file = "redislite-6.2.805324-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8ad793d9b45d2e77d36753b695391c1a9e77a84b1782f7ea5d42fb5af3bbe86a"},
+    {file = "redislite-6.2.805324-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:ba35f7600d119a1db1cbae77c0591b8e0feb351689117c68c23bc5f34d3442af"},
+    {file = "redislite-6.2.805324-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4904fe27211637c17dd98b4547cc6de4cacf231b394b5174d7acca38409db5c4"},
+    {file = "redislite-6.2.805324-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:bdd673e51b42d515b273518c4670d2d94d54542baa67b2d4c8951e47e05cd349"},
+    {file = "redislite-6.2.805324-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9fbb1433b4a2d88889b550bd08c6885a58446d204c6ee031a5a2fdee83620f46"},
+    {file = "redislite-6.2.805324-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:79f4540aa4c5f6cd85370a504b6610ef6995775307389559ad4001f61949c229"},
+    {file = "redislite-6.2.805324-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:731b6d239f67f8fc9e3d801dca26269291b94be772c37bc2b65a884c9d79138e"},
+    {file = "redislite-6.2.805324-pp38-pypy38_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:4640ed4533c176b3b1fab4592af39d3fab6423843c7634b6b5aba980dfc5d578"},
+    {file = "redislite-6.2.805324-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4e86ef58c491a6dc0c04fad86c286bb43edc128b26006ef90b2b49ed1d38e089"},
+    {file = "redislite-6.2.805324-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7723317952715b7fa5e21d14ef3cf4d5a18f43f828e04b39712fa8d13d2274ff"},
+    {file = "redislite-6.2.805324.tar.gz", hash = "sha256:603b28bcdfdbe45edfe0046dc99b0fcbe3d5c533d1b7e5d9c3ff6208a656e7f1"},
 ]
 regex = [
+    {file = "regex-2021.10.8-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:094a905e87a4171508c2a0e10217795f83c636ccc05ddf86e7272c26e14056ae"},
     {file = "regex-2021.10.8-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:981c786293a3115bc14c103086ae54e5ee50ca57f4c02ce7cf1b60318d1e8072"},
+    {file = "regex-2021.10.8-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:b0f2f874c6a157c91708ac352470cb3bef8e8814f5325e3c5c7a0533064c6a24"},
     {file = "regex-2021.10.8-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:51feefd58ac38eb91a21921b047da8644155e5678e9066af7bcb30ee0dca7361"},
     {file = "regex-2021.10.8-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ea8de658d7db5987b11097445f2b1f134400e2232cb40e614e5f7b6f5428710e"},
     {file = "regex-2021.10.8-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:1ce02f420a7ec3b2480fe6746d756530f69769292eca363218c2291d0b116a01"},
@@ -1041,7 +1046,9 @@ regex = [
     {file = "regex-2021.10.8-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:a37305eb3199d8f0d8125ec2fb143ba94ff6d6d92554c4b8d4a8435795a6eccd"},
     {file = "regex-2021.10.8-cp37-cp37m-win32.whl", hash = "sha256:2efd47704bbb016136fe34dfb74c805b1ef5c7313aef3ce6dcb5ff844299f432"},
     {file = "regex-2021.10.8-cp37-cp37m-win_amd64.whl", hash = "sha256:924079d5590979c0e961681507eb1773a142553564ccae18d36f1de7324e71ca"},
+    {file = "regex-2021.10.8-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:19b8f6d23b2dc93e8e1e7e288d3010e58fafed323474cf7f27ab9451635136d9"},
     {file = "regex-2021.10.8-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:b09d3904bf312d11308d9a2867427479d277365b1617e48ad09696fa7dfcdf59"},
+    {file = "regex-2021.10.8-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:951be934dc25d8779d92b530e922de44dda3c82a509cdb5d619f3a0b1491fafa"},
     {file = "regex-2021.10.8-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7f125fce0a0ae4fd5c3388d369d7a7d78f185f904c90dd235f7ecf8fe13fa741"},
     {file = "regex-2021.10.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5f199419a81c1016e0560c39773c12f0bd924c37715bffc64b97140d2c314354"},
     {file = "regex-2021.10.8-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:09e1031e2059abd91177c302da392a7b6859ceda038be9e015b522a182c89e4f"},
@@ -1049,7 +1056,9 @@ regex = [
     {file = "regex-2021.10.8-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:176796cb7f82a7098b0c436d6daac82f57b9101bb17b8e8119c36eecf06a60a3"},
     {file = "regex-2021.10.8-cp38-cp38-win32.whl", hash = "sha256:5e5796d2f36d3c48875514c5cd9e4325a1ca172fc6c78b469faa8ddd3d770593"},
     {file = "regex-2021.10.8-cp38-cp38-win_amd64.whl", hash = "sha256:e4204708fa116dd03436a337e8e84261bc8051d058221ec63535c9403a1582a1"},
+    {file = "regex-2021.10.8-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:6dcf53d35850ce938b4f044a43b33015ebde292840cef3af2c8eb4c860730fff"},
     {file = "regex-2021.10.8-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:b8b6ee6555b6fbae578f1468b3f685cdfe7940a65675611365a7ea1f8d724991"},
+    {file = "regex-2021.10.8-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:e2ec1c106d3f754444abf63b31e5c4f9b5d272272a491fa4320475aba9e8157c"},
     {file = "regex-2021.10.8-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:973499dac63625a5ef9dfa4c791aa33a502ddb7615d992bdc89cf2cc2285daa3"},
     {file = "regex-2021.10.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:88dc3c1acd3f0ecfde5f95c32fcb9beda709dbdf5012acdcf66acbc4794468eb"},
     {file = "regex-2021.10.8-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:4786dae85c1f0624ac77cb3813ed99267c9adb72e59fdc7297e1cf4d6036d493"},
